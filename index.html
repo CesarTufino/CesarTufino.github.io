@@ -5,69 +5,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SPA</title>
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <main>
+    <main class="normal">
         <header>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#">Promociones</a></li>
+                    <li><a href="#">Fotos</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Mapa</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+            <div>
                 <nav>
-                    <ul>
-                        <li>Promociones</li>
-                        <li>Fotos</li>
-                        <li>Servicios</li>
-                        <li>Mapa</li>
-                        <li>Contacto</li>
-                    </ul>
+                    <a href="#">
+                        <img src="images/user.png" alt="">
+                        <span>Mi cuenta</span>
+                    </a>
                 </nav>
-                <div>
-                    <img src="images/user.png" alt="">
-                    <span>Mi cuenta</span>
-                    <span>ES</span>
-                    <img src="images/flag.png" alt="">
-                    <img src="images/arrow.png" alt="">
-                </div>
+                <span>ES</span>
+                <img src="images/flag.png" alt="">
+                <img src="images/arrow.png" alt="">
+            </div>
         </header>
         <section>
             <div>
-                <p>SPA - TodosRegálate un momento de paz y consiente a tu piel en el mejor lugar</p>
+                <p class="titulo">SPA - Todos</p>
+                <p class="titulo2">Regálate un momento de paz y consiente a tu piel en el mejor lugar</p>
                 <img src="images/main.png" alt="">
             </div>
             <div class="reserva">
-                <span>Reserva tu cita:</span>
-                <input type="text" name="" id="">
-                <span>Código promocional :</span>
-                <input type="text" name="" id="" value="CODIGO">
+                <span class="menu">Reserva tu cita:</span>
+                <input type="text" name="cita" id="cita">
+                <span class="menu">Código promocional :</span>
+                <input type="text" name="codigo" id="codigo" placeholder="CODIGO">
             </div>
             <div class="masajes">
                 <div class="card-masaje">
-                    <p>Masaje de pies</p>
+                    <p class="titulo2 forma-masaje">Masaje de pies</p>
                     <img src="images/pies.png" alt="">
                     <p>Esta es una descripcion de la opción en cuestión .....</p>
-                    <p>$65</p>
-                    <p>RESERVAR</p>
+                    <span class="titulo2">$65</span>
+                    <a href="#" class="forma-boton">RESERVAR</a>
                 </div>
                 <div class="card-masaje">
-                    <p>Masaje relajante</p>
+                    <p class="titulo2 forma-masaje">Masaje relajante</p>
                     <img src="images/relajante.png" alt="">
                     <p>Esta es una descripcion de la opción en cuestión .....</p>
-                    <p>$60</p>
-                    <p>RESERVAR</p>
+                    <span class="titulo2">$60</span>
+                    <a href="#" class="forma-boton">RESERVAR</a>
                 </div>
                 <div class="card-masaje">
-                    <p>Masaje con bambú</p>
+                    <p class="titulo2 forma-masaje">Masaje con bambú</p>
                     <img src="images/bambu.png" alt="">
                     <p>Esta es una descripcion de la opción en cuestión .....</p>
-                    <p>$58</p>
-                    <p>RESERVAR</p>
+                    <span class="titulo2">$58</span>
+                    <a href="#" class="forma-boton">RESERVAR</a>
                 </div>
             </div>
             <div class="socio">
-                <p>Haste socio y prueba nuestros beneficios</p>
+                <p class="titulo2">Haste socio y prueba nuestros beneficios</p>
                 <div class="card-socio">
-                    <img src="images/gold.png" alt="">
-                    <p>GOLD</p>
-                    <p>VER CONDICIONES</p>
+                    <div class="forma-corona">
+                        <img src="images/gold.png" alt="">
+                    </div>
+                    <p class="titulo2">GOLD</p>
+                    <a href="#" class="forma-boton">VER CONDICIONES</a>
                     <ul>
                         <li>Gimnasio</li>
                         <li>Piscina</li>
@@ -75,18 +82,22 @@
                     </ul>
                 </div>
                 <div class="card-socio">
-                    <img src="images/premium.png" alt="">
-                    <p>PREMIUM</p>
-                    <p>VER CONDICIONES</p>
+                    <div class="forma-corona">
+                        <img src="images/premium.png" alt="">
+                    </div>
+                    <p class="titulo2">PREMIUM</p>
+                    <a href="#" class="forma-boton">VER CONDICIONES</a>
                     <ul>
                         <li>Gimnasio</li>
                         <li>Todos los tratamientos</li>
                     </ul>
                 </div>
                 <div class="card-socio">
-                    <img src="images/plate.png" alt="">
-                    <p>PLATE</p>
-                    <p>VER CONDICIONES</p>
+                    <div class="forma-corona">
+                        <img src="images/plate.png" alt="">
+                    </div>
+                    <p class="titulo2">PLATE</p>
+                    <a href="#" class="forma-boton">VER CONDICIONES</a>
                     <ul>
                         <li>Gimnasio</li>
                         <li>Piscina</li>
@@ -97,18 +108,18 @@
         </section>
         <footer>
             <nav>
-                <ul>
-                    <li>Politicas de cookies</li>
-                    <li>aviso legal</li>
-                    <li>protección de datos</li>
-                    <li>mapa del sitio</li>
+                <ul class="menu">
+                    <li><a href="#">Politicas de cookies</a></li>
+                    <li><a href="#">aviso legal</a></li>
+                    <li><a href="#">protección de datos</a></li>
+                    <li><a href="#">mapa del sitio</a></li>
                 </ul>
             </nav>
             <div>
                 <span>Síguenos en</span>
-                <img src="images/rs_facebook.png" alt="">
-                <img src="images/rs_twiter.png" alt="">
-                <img src="images/rs_youtube.png" alt="">
+                <a href="#"><img src="images/rs_facebook.png" alt=""></a>
+                <a href="#"><img src="images/rs_twiter.png" alt=""></a>
+                <a href="#"><img src="images/rs_youtube.png" alt=""></a>
             </div>
         </footer>
     </main>
