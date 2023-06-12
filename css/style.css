@@ -1,24 +1,39 @@
 *{margin: 0px; padding: 0px;}
 *{border: 1px solid red;}
 header{height: 70px; background-color: #A3A656;}
-header li{display: inline-block;}
-header nav{float: left;}
-header div{float: right;}
+header nav{float: left; height: 100%; border: 1px solid blue}
+header ul{border: 1px solid blue}
+header li{display: inline-block; padding-right: 20px;}
+header div{float: right; height: 100%;}
+.centro{padding-left: 70px; margin-top: 25px;}
+
 section{clear: both;}
 @font-face {
     font-family: "Romanesco-R";
     src: url('../fonts/Romanesco-Regular.ttf');
 }
+.titulos p:nth-child(1){position: absolute; top: 200px; left: 150px}
+.titulos p:nth-child(2){position: absolute; top: 340px; left: 150px; width: 600px;}
+.titulos img{width: 100%;}
 .titulo{font-family: "Romanesco-R", sans-serif; font-size: 96px;}
 .reserva{height: 100px; background-color: #F2F6F6;}
-/*.reserva{border: 3px solid blue;}*/
-.masajes{height: 650px;} /**/
+.reserva{display: flex; align-items: center; justify-content: center;}
+.masajes{display: flex; justify-content: center;}
 .masajes div{display: inline-block;}
-.card-masaje{width: 333px;}
-.card-masaje img{width: 333px;}
+.card-masaje{width: 310px;}
+.card-masaje img{width: 310px;}
+.card-masaje{padding: 0px 67px 70px;margin-top: 100px;}
+/*
+.card-masaje{padding-bottom: 70px;margin-top: 100px;}
+.card-masaje:nth-child(1){padding-right: 134px}
+.card-masaje:nth-child(2){padding-right: 134px}*/
+.descripcion{padding: 20px 0px;}
 .socio{height: 770px; background-color: #F2F6F6;}
-.socio div{display: inline-block;}
-.card-socio{width: 250px;}
+.socio p:nth-child(1){text-align: center;margin-top: 40px;}
+.membresias{display: flex; justify-content: center;}
+.membresias div{margin-left: auto;margin-right: auto;}
+
+.card-socio{width: 250px;margin-top: 80px;}
 .card-socio img{display: block; margin: auto; margin-top: 50px;}
 footer{height: 97px; background-color: #384001}
 footer li{display: inline-block;}
@@ -29,11 +44,13 @@ footer div{float: right;}
 .titulo2{font-family: sans-serif; font-weight: 600; font-size: 32px;}
 .miniatura{font-family: sans-serif; font-size: 14px;}
 .menu{font-family: sans-serif; font-size: 16px; text-transform: uppercase;}
+.menu a:hover{color:#FFFF00}
 .normal{font-family: sans-serif; font-size: 16px;}
 .placeholder{font-family: sans-serif; font-size: 16px; color: #9E9A9A;}
 
-.forma-boton{font-weight: bold; background-color: #A3A656; border-radius: 35px; color: #FFF; text-align: center;}
-.forma-masaje{height: 80px; background-color: #A3A656; border-radius: 15px 15px 0 0; color: #FFF; text-align: center;}
+.forma-boton{font-weight: bold; background-color: #A3A656; border-radius: 35px; color: #FFF; display: flex; align-items: center; justify-content: center;}/*text-align: center; */
+.forma-boton:hover{background-color: #384001;}
+.forma-masaje{height: 80px; background-color: #A3A656; border-radius: 15px 15px 0 0; color: #FFF; display: flex; align-items: center; justify-content: center;}
 .forma-corona{height: 233px; width: 233px; border: 13px solid #384001; border-radius: 100%; background-color: #FFF;}
 section input{height: 60px; width: 300px; border-radius: 15px 15px 15px 15px;}
 
@@ -42,4 +59,5 @@ footer{color: #A3A656}
 footer a{color: #A3A656}
 .masajes a{float: right; height: 40px; width: 150px; }
 .socio a{height: 40px; width: 150px; }
+
 
