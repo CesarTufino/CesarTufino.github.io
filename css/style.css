@@ -1,8 +1,8 @@
 *{margin: 0px; padding: 0px;}
 /*{border: 1px solid red;}*/
 header{height: 70px; background-color: #A3A656;}
-header nav{float: left; height: 100%; border: 1px solid blue}
-header ul{border: 1px solid blue}
+header nav{float: left; height: 100%;}
+/*{header ul{border: 1px solid blue}*/
 header li{display: inline-block; padding-right: 20px;}
 header div{float: right; height: 100%;}
 .centro{padding-left: 70px; margin-top: 25px;}
