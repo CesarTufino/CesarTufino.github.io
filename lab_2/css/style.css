@@ -1,81 +1,316 @@
-*{margin: 0px; padding: 0px;}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 @font-face {
     font-family: "Romanesco-R";
     src: url('../fonts/Romanesco-Regular.ttf');
 }
+
 @font-face {
     font-family: "Inter-R";
     src: url('../fonts/Inter-Regular.ttf');
 }
+
 @font-face {
     font-family: "Inter-B";
     src: url('../fonts/Inter-Bold.ttf');
 }
+
 @font-face {
     font-family: "Inter-SB";
     src: url('../fonts/Inter-SemiBold.ttf');
 }
-header{height: 70px; background-color: #A3A656; display: flex; align-items: center; justify-content: space-between;}
-header *{display: flex; align-items: center;}
-.header-menu{padding-left: 70px;}
-header li{display: inline-block; padding-right: 20px;}
-.opciones nav{margin-right: 30px;}
-.opciones div span{margin-right: 10px;}
-.opciones img{margin-right: 10px; height: 100%;}
 
-.portada{display: flex}
-.portada p:nth-child(1){position: absolute; top: 200px; left: 150px; font-family: "Romanesco-R"; font-size: 96px;}
-.portada p:nth-child(2){position: absolute; top: 340px; left: 150px; width: 600px;}
-.portada img{width: 100%; height: auto;}
+header {
+    height: 70px;
+    background-color: #A3A656;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
-.reserva{height: 100px; background-color: #F2F6F6; display: flex; align-items: center; justify-content: center;}
-.reserva input{height: 60px; border-radius: 15px 15px 15px 15px;}
-input{text-indent: 5%;}
-.reserva span{padding: 0px 20px;}
-.reserva input:nth-child(2){width: 270px;}
-.reserva input:nth-child(4){width: 200px;}
+header * {
+    display: flex;
+    align-items: center;
+}
 
-.cards-masajes{display: flex; justify-content: center;}
-.card-masaje{display: inline-block;width: 310px;padding-bottom: 70px;margin-top: 100px;}
-.card-masaje img{width: 310px;}
-.card-masaje:nth-child(-n+2){padding-right: 134px}
-.card-masaje a{float: right; height: 40px; width: 150px; }
-.card-masaje span{padding-left: 15px;}
-.descripcion{padding: 20px 0px;}
-.forma-masaje{height: 80px; background-color: #A3A656; border-radius: 15px 15px 0 0; color: #FFF; display: flex; align-items: center; justify-content: center;}
+.header-menu {
+    padding-left: 70px;
+}
+
+header li {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.opciones nav {
+    margin-right: 30px;
+}
+
+.opciones div span {
+    margin-right: 10px;
+}
+
+.opciones img {
+    margin-right: 10px;
+    height: 100%;
+}
+
+.portada {
+    display: flex
+}
+
+.portada p:nth-child(1) {
+    position: absolute;
+    top: 200px;
+    left: 150px;
+    font-family: "Romanesco-R";
+    font-size: 96px;
+}
+
+.portada p:nth-child(2) {
+    position: absolute;
+    top: 340px;
+    left: 150px;
+    width: 600px;
+}
+
+.portada img {
+    width: 100%;
+    height: auto;
+}
+
+.reserva {
+    height: 100px;
+    background-color: #F2F6F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reserva input {
+    height: 60px;
+    border-radius: 15px 15px 15px 15px;
+}
+
+input {
+    text-indent: 5%;
+}
+
+.reserva span {
+    padding: 0px 20px;
+}
+
+.reserva input:nth-child(2) {
+    width: 270px;
+}
+
+.reserva input:nth-child(4) {
+    width: 200px;
+}
+
+.cards-masajes {
+    display: flex;
+    justify-content: center;
+}
+
+.card-masaje {
+    display: inline-block;
+    width: 310px;
+    padding-bottom: 70px;
+    margin-top: 100px;
+}
+
+.card-masaje img {
+    width: 310px;
+}
+
+.card-masaje:nth-child(-n+2) {
+    padding-right: 134px
+}
+
+.card-masaje a {
+    float: right;
+    height: 40px;
+    width: 150px;
+}
+
+.card-masaje span {
+    padding-left: 15px;
+}
+
+.descripcion {
+    padding: 20px 0px;
+}
+
+.forma-masaje {
+    height: 80px;
+    background-color: #A3A656;
+    border-radius: 15px 15px 0 0;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
-.parte-socio{height: 770px; background-color: #F2F6F6;}
-.parte-socio p:nth-child(1){text-align: center; padding-top: 40px;}
-.cards-socios{display: flex; justify-content: space-evenly;}
-.card-socio{width: 255px;margin-top: 80px;}
-.forma-corona{height: 233px; width: 233px; border: 11px solid #384001; border-radius: 100%; background-color: #FFF;}
-.card-socio img{display: block; margin: auto; margin-top: 50px;}
-.card-socio p:nth-child(2){text-align: center; padding: 10px 0px 30px;}
-.card-socio a{height: 55px; width: 300px; position: relative; left: -20px;}
-.card-socio ul{padding-left: 50px; padding-top: 20px;}
-.card-socio ul li{padding-top: 8px;}
+.parte-socio {
+    height: 770px;
+    background-color: #F2F6F6;
+}
+
+.parte-socio p:nth-child(1) {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.cards-socios {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-socio {
+    width: 255px;
+    margin-top: 80px;
+}
+
+.forma-corona {
+    height: 233px;
+    width: 233px;
+    border: 11px solid #384001;
+    border-radius: 100%;
+    background-color: #FFF;
+}
+
+.card-socio img {
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.card-socio p:nth-child(2) {
+    text-align: center;
+    padding: 10px 0px 30px;
+}
+
+.card-socio a {
+    height: 55px;
+    width: 300px;
+    position: relative;
+    left: -20px;
+}
+
+.card-socio ul {
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+.card-socio ul li {
+    padding-top: 8px;
+}
 
 
-footer{height: 97px; background-color: #384001; display: flex; align-items: center; justify-content: space-between;}
-footer *{display: flex; align-items: center;}
-footer li{display: inline-block; padding-right: 60px;}
-footer nav{padding-left: 70px;}
-footer div{padding-right: 30px;}
-footer div img{padding-right: 20px;}
-footer div span{padding-right: 30px; text-transform: uppercase;}
-footer{color: #A3A656}
+footer {
+    height: 97px;
+    background-color: #384001;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
-.fuente-titulo1{font-family: "Inter-B";font-size: 48px;}
-.fuente-titulo2{font-family: "Inter-SB"; font-size: 32px;}
-.fuente-miniatura{font-family: "Inter-R"; font-size: 14px;}
-.fuente-menu{font-family: "Inter-R"; font-size: 16px; text-transform: uppercase;}
-.fuente-normal{font-family: "Inter-R"; font-size: 16px;}
-#codigo::placeholder{font-family: "Inter-R"; font-size: 16px; color: #9E9A9A;}
+footer * {
+    display: flex;
+    align-items: center;
+}
 
-.forma-boton{font-weight: bold; background-color: #A3A656; border-radius: 35px; color: #FFF; display: flex; align-items: center; justify-content: center;}/*text-align: center; */
-.forma-boton:hover{background-color: #384001;}
-.fuente-menu a:hover{color:#FFFF00}
+footer li {
+    display: inline-block;
+    padding-right: 60px;
+}
 
-a{text-decoration: none; color: #000;}
-footer a{color: #A3A656}
+footer nav {
+    padding-left: 70px;
+}
+
+footer div {
+    padding-right: 30px;
+}
+
+footer div img {
+    padding-right: 20px;
+}
+
+footer div span {
+    padding-right: 30px;
+    text-transform: uppercase;
+}
+
+footer {
+    color: #A3A656
+}
+
+.fuente-titulo1 {
+    font-family: "Inter-B";
+    font-size: 48px;
+}
+
+.fuente-titulo2 {
+    font-family: "Inter-SB";
+    font-size: 32px;
+}
+
+.fuente-miniatura {
+    font-family: "Inter-R";
+    font-size: 14px;
+}
+
+.fuente-menu {
+    font-family: "Inter-R";
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.fuente-normal {
+    font-family: "Inter-R";
+    font-size: 16px;
+}
+
+#codigo::placeholder {
+    font-family: "Inter-R";
+    font-size: 16px;
+    color: #9E9A9A;
+}
+
+.forma-boton {
+    font-weight: bold;
+    background-color: #A3A656;
+    border-radius: 35px;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*text-align: center; */
+.forma-boton:hover {
+    background-color: #384001;
+}
+
+.fuente-menu a:hover {
+    color: #FFFF00
+}
+
+.opciones a:hover {
+    color: #FFFF00
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+footer a {
+    color: #A3A656
+}
