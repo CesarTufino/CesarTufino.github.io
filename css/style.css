@@ -20,12 +20,13 @@ header *{display: flex; align-items: center;}
 .header-menu{padding-left: 70px;}
 header li{display: inline-block; padding-right: 20px;}
 .opciones nav{margin-right: 30px;}
-.opciones div span,img{margin-right: 10px;}
+.opciones div span{margin-right: 10px;}
+.opciones img{margin-right: 10px; height: 100%;}
 
-.portada{position: relative;}
-.portada p:nth-child(1){position: absolute; top: 130px; left: 150px; font-family: "Romanesco-R"; font-size: 96px;}
-.portada p:nth-child(2){position: absolute; top: 270px; left: 150px; width: 600px;}
-.portada img{width: 100%;}
+.portada{display: flex}
+.portada p:nth-child(1){position: absolute; top: 200px; left: 150px; font-family: "Romanesco-R"; font-size: 96px;}
+.portada p:nth-child(2){position: absolute; top: 340px; left: 150px; width: 600px;}
+.portada img{width: 100%; height: auto;}
 
 .reserva{height: 100px; background-color: #F2F6F6; display: flex; align-items: center; justify-content: center;}
 .reserva input{height: 60px; border-radius: 15px 15px 15px 15px;}
@@ -45,7 +46,7 @@ input{text-indent: 5%;}
 
 
 .parte-socio{height: 770px; background-color: #F2F6F6;}
-.parte-socio p:nth-child(1){text-align: center; margin-top: 40px;}
+.parte-socio p:nth-child(1){text-align: center; padding-top: 40px;}
 .cards-socios{display: flex; justify-content: space-evenly;}
 .card-socio{width: 255px;margin-top: 80px;}
 .forma-corona{height: 233px; width: 233px; border: 11px solid #384001; border-radius: 100%; background-color: #FFF;}
@@ -70,7 +71,7 @@ footer{color: #A3A656}
 .fuente-miniatura{font-family: "Inter-R"; font-size: 14px;}
 .fuente-menu{font-family: "Inter-R"; font-size: 16px; text-transform: uppercase;}
 .fuente-normal{font-family: "Inter-R"; font-size: 16px;}
-.fuente-placeholder{font-family: "Inter-R"; font-size: 16px; color: #9E9A9A;}
+#codigo::placeholder{font-family: "Inter-R"; font-size: 16px; color: #9E9A9A;}
 
 .forma-boton{font-weight: bold; background-color: #A3A656; border-radius: 35px; color: #FFF; display: flex; align-items: center; justify-content: center;}/*text-align: center; */
 .forma-boton:hover{background-color: #384001;}
