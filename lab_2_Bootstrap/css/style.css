@@ -1,0 +1,66 @@
+.bg-verde-c {
+    background-color: #A3A656;
+}
+
+.bg-verde-o {
+    background-color: #384001;
+}
+
+.bg-plomo {
+    background-color: #F2F6F6;
+}
+
+.h-70px {
+    height: 70px;
+}
+
+.h-97px {
+    height: 97px;
+}
+
+.h-100px {
+    height: 100px;
+}
+
+.h-80px {
+    height: 80px;
+}
+
+.h-450px {
+    height: 450px;
+}
+
+.hw-233px {
+    height: 233px;
+    width: 233px;
+}
+
+.h-200px {
+    height: 200px;
+}
+
+.ps-70px {
+    padding-left: 70px;
+}
+
+.text-a-black {
+    --bs-link-color-rgb: 0, 0, 0;
+}
+
+/*#000*/
+.text-a-lgreen {
+    --bs-link-color-rgb: 163, 166, 86
+}
+
+/*#A3A656*/
+.text-a-hover-yellow {
+    --bs-link-hover-color-rgb: 255, 255, 0;
+}
+
+.text-lgreen {
+    color: #A3A656;
+}
+
+.w-42 {
+    width: 42%;
+}
